@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Panel</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="madre">
+        <div class="containerL">
+            <div class="login-container">
+                <div class="avatar">
+                    <img src="images/andrestvz.png" alt="" srcset="">
+                </div>
+
+                <div class="form">
+                    <input id="username" type="text" placeholder="Username" value="" onload="focus()"/>
+                    <input id="password" type="password" placeholder="Password" value=""/>
+                </div>
+
+                <label class="checkbox">
+                    <input type="checkbox" name="" id="checkbox">
+                    <span></span>
+                </label>
+
+                <div class="buttons">
+                    <input class="btn" type="submit" value="LOGIN" onclick="submitLogin()" />
+                    <input class="btn" type="submit" value="REGISTER"  onclick="register()"/>
+                </div>
+                <div class="button-guest">
+                    <input class="btn" type="submit" value="GUEST" onclick="submitGuest()" />
+                </div>
+                <div class="footer">
+                    <h1>www.gare.gg</h1>
+                </div>
+            </div>
+        </div>
+        <div class="containerR">
+            <div class="login-container">
+                <div class="avatar">
+                    <img src="images/gare.png" alt="" srcset="" style="width: 100px; height: 100px; margin-top: 20px;">
+                </div>
+                <div class="form" style="margin-top: 30px;">
+                    <input id="emailR" type="text" placeholder="E-mail" value=""/>
+                    <input id="usernameR" type="text" placeholder="username" value=""/>
+                    <input id="passwordR" type="password" placeholder="password" value=""/>
+                    <input id="repasswordR" type="password" placeholder="Password" value=""/>
+                </div>
+
+                <div class="buttons" style="margin-top: 50px;">
+                    <input class="btn" type="submit" value="REGISTER" onclick="submitRegister()"/>
+                    <input class="btn" type="submit" value="⮞"  onclick="back()"/>
+                </div>
+                <div class="footer">
+                    <h1>www.gare.gg</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="js/script.js"></script>
+</html>

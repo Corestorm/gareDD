@@ -1,0 +1,25 @@
+<meta>
+	<info author="AndresTVz" type="script" name="fonts" version="0.1.0" />
+	<file src="Montserrat-Black.ttf" />
+	<file src="Montserrat-BlackItalic.ttf" />
+	<file src="Montserrat-Bold.ttf" />
+	<file src="Montserrat-BoldItalic.ttf" />
+	<file src="Montserrat-ExtraBold.ttf" />
+	<file src="Montserrat-ExtraBoldItalic.ttf" />
+	<file src="Montserrat-ExtraLight.ttf" />
+	<file src="Montserrat-ExtraLightItalic.ttf" />
+	<file src="Montserrat-Italic.ttf" />
+	<file src="Montserrat-Light.ttf" />
+	<file src="Montserrat-LightItalic.ttf" />
+	<file src="Montserrat-Medium.ttf" />
+	<file src="Montserrat-MediumItalic.ttf" />
+	<file src="Montserrat-Regular.ttf" />
+	<file src="Montserrat-SemiBold.ttf" />
+	<file src="Montserrat-SemiBoldItalic.ttf" />
+	<file src="Montserrat-Thin.ttf" />
+	<file src="Montserrat-ThinItalic.ttf" />
+	<file src="Roboto-Bold.ttf" />
+	<file src="Roboto-Regular.ttf" />
+	<file src="Roboto-Thin.ttf" />
+	<file src="Roboto-LightItalic.ttf" />
+</meta>

@@ -1,0 +1,9 @@
+<meta>
+	<info author="AndresTVz" type="script" name="FX" version="0.1.0" />
+
+	<file src="circle.fx"/>
+	<file src="mask.fx"/>
+	<file src="tex_matrix.fx"/>
+	<file src="tex_matrix.fx"/>
+
+</meta>

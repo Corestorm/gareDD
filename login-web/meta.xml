@@ -1,0 +1,18 @@
+<!-- This resource need to add in ACL.xml to group Admin. -->
+<meta>
+	<min_mta_version server="1.5.7-9.20307" client="1.5.7-9.20307" />
+    <info author="AndresTVz" description="Login Panel" version="1.0" type="script"></info>
+    <script src="client.lua" type="client" cache="false" />
+	<script src="server.lua" type="server" cache="false" />
+	
+	<!-- HTML -->
+	<file src="index.html" />
+	<file src="css/style.css" />
+	<file src="js/script.js" />
+
+	<file src="images/andrestvz.png" />
+	<file src="images/background.jpg" />
+	<file src="images/default-avatar.png" />
+	<file src="images/gare.png" />
+
+</meta>
